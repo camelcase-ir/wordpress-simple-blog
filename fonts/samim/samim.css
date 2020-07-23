@@ -1,0 +1,13 @@
+@font-face {
+  font-family: Samim FD;
+  src: url('Samim-FD.eot');
+  src: url('Samim-FD.eot?#iefix') format('embedded-opentype'),
+       url('Samim-FD.woff2') format('woff2'),
+       url('Samim-FD.woff') format('woff'),
+       url('Samim-FD.ttf') format('truetype');
+  font-weight: normal;
+}
+
+body {
+	font-family: Samim FD !important;
+}

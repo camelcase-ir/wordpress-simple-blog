@@ -1,0 +1,220 @@
+/*
+Theme Name: amirBlog
+Theme URI: http://amirshnll.ir/
+Author: Amir Shokri
+Author URI: http://camelcase.ir/
+Description: A simple Blog wordpress Theme
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, blue, blog, theme, blog theme
+*/
+@charset "UTF-8";
+
+html,body {
+margin:0;
+padding:0;
+height:100%
+}
+
+a {
+text-decoration:none
+}
+
+div {
+box-sizing:border-box
+}
+
+body {
+direction:rtl
+}
+
+.header .top-header .top-header-right h1,.header .top-header .top-header-right h2 {
+font-size:13px;
+padding-top:12px
+}
+
+.header .top-header .top-header-left .header-contact {
+list-style:none;
+margin-bottom:0!important
+}
+
+.header .top-header .top-header-left .header-contact li {
+margin-left:25px
+}
+
+.header .top-header .top-header-left .header-contact li * {
+display:inline;
+font-size:13px;
+letter-spacing:1px
+}
+
+.header .botoom-header .header-navbar .header-navbar-menu {
+padding:40px 0
+}
+
+.header .botoom-header .header-navbar .header-navbar-menu ul {
+list-style:none;
+margin:0;
+padding:0
+}
+
+.main {
+min-height:700px
+}
+
+.main .main-cover img {
+max-height:300px
+}
+
+.main .content-box {
+margin:50px auto
+}
+
+.main .main-widget {
+padding:20px;
+min-height:500px
+}
+
+.main .main-widget a {
+color:#000;
+font-weight:700
+}
+
+.main .main-widget .main-widget-item {
+margin-bottom:20px;
+font-size:15px;
+background:#eee;
+padding:20px;
+line-height:30px
+}
+
+.main .main-widget .main-widget-item .main-widget-item-title {
+padding-bottom:10px;
+border-bottom:1px solid #bbb;
+font-size:16px;
+font-weight:700
+}
+
+.main .main-content .post-box .posts .post-items {
+padding:20px;
+margin-bottom:30px
+}
+
+.main .main-content .post-box .posts .post-items .post-items-content p {
+line-height:30px;
+font-size:14px
+}
+
+.main .main-content .pagination * {
+list-style:none;
+font-size:13px
+}
+
+.main .main-content .pagination .btn a {
+color:#fff!important;
+text-decoration:none
+}
+
+.main .main-content .pagination li {
+margin-left:10px!important
+}
+
+.footer * {
+color:#fff
+}
+
+.footer .top-footer {
+min-height:300px
+}
+
+.footer .top-footer .footer-widget {
+padding:20px 0
+}
+
+.footer .top-footer .footer-widget .footer-widget-box {
+padding:20px;
+font-size:13px
+}
+
+.footer .top-footer .footer-widget .footer-widget-box .footer-widget-box-title {
+border-bottom:#fff 1px solid;
+padding-bottom:20px;
+font-size:14px
+}
+
+.footer .top-footer .footer-widget .footer-widget-box a {
+color:#fff
+}
+
+.footer .bottom-footer {
+background:#000
+}
+
+.footer .bottom-footer .copyright {
+padding-top:20px;
+padding-bottom:5px;
+font-size:13px
+}
+
+.main .page-title {
+padding-bottom:40px;
+padding-top:100px;
+border-bottom:1px solid #ddd;
+border-top:1px solid #ddd
+}
+
+.main .page-box {
+min-height:500px;
+margin:70px auto;
+line-height:40px
+}
+
+.comment-respond input[type="text"],.comment-respond textarea {
+display:block;
+width:100%;
+padding:.375rem .75rem;
+font-size:1rem;
+font-weight:400;
+line-height:1.5;
+color:#495057;
+background-color:#fff;
+background-clip:padding-box;
+border:1px solid #ced4da;
+border-radius:.25rem;
+transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+outline:none
+}
+
+.comment-respond input[type="submit"] {
+display:inline-block;
+font-weight:400;
+color:#212529;
+text-align:center;
+vertical-align:middle;
+-webkit-user-select:none;
+-moz-user-select:none;
+-ms-user-select:none;
+user-select:none;
+background-color:transparent;
+border:1px solid transparent;
+padding:.375rem .75rem;
+font-size:1rem;
+line-height:1.5;
+border-radius:.25rem;
+transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+color:#fff;
+background-color:#007bff;
+border-color:#007bff;
+float:left;
+clear:both
+}
+
+.comment-respond input[type="submit"]:hover {
+color:#fff;
+background-color:#0069d9;
+border-color:#0062cc
+}
+
+.page-box img {
+max-width:80%
+}
